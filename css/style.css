@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+header {
+    background-color: chocolate;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.pizzafundo {
+    background-image: url(/pizzaria/img/pizza.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: white;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.pizzafundo>a {
+    text-decoration: none;
+    border: white solid;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pizzafundo>a:hover {
+    background-color: rgb(122, 122, 122);
+    text-decoration: none;
+    border: white solid;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+}
+
+.menu>li>a:hover {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+    transform: scale(2);
+}
+
+h1 {
+    margin: 50px;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px black;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 223, 0);
+    margin: 10px;
+}
+
+hr {
+    border: none;
+    background: rgb(255,175,175);
+    background: linear-gradient(90deg, rgba(255,175,175,0) 0%, rgba(201,10,10,1) 47%, rgba(255,165,165,0) 100%, rgba(0,212,255,1) 100%);
+    height: 3px;
+    margin: 10px 20px;
+}
+
+.sabores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sabor{
+    margin: 20px;
+    background-color: rgb(255, 68, 68);
+    border-radius: 15px;
+    max-width: 250px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 5px 5px 20px;
+}
+
+.sabor > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.preco{
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.sabores2{
+    display: flex;
+    justify-content: center;
+    overflow: scroll hidden;
+    
+}
+
+footer{
+    background-color: chocolate;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu2>li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu2>li>a{
+    text-decoration: none;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+}
